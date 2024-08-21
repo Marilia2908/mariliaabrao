@@ -1,0 +1,209 @@
+/* Estilo geral do corpo */
+html, body {
+    height: 100%; /* Garante que o HTML e o body ocupem 100% da altura da tela */
+    margin: 0; 
+    padding: 0; 
+}
+
+body {
+    font-family: Arial, sans-serif; /* Fonte padrão do corpo */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Garante que o body ocupe pelo menos a altura total da tela */
+}
+
+/* Estilo do cabeçalho e navegação */
+header {
+    background-color: #d5006d; 
+    color: #fff;
+    padding: 10px 0; /* Aumenta o padding para uma barra de navegação mais larga */
+    text-align: center;
+    font-family: 'Poppins', sans-serif; /* Fonte Poppins para o cabeçalho */
+}
+
+/* Estilo dos links do menu */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px; /* Aumenta a margem para espaçamento maior entre os links */
+}
+
+nav ul li a {
+    font-weight: 700; 
+    font-size: 20px; 
+    color: #fff; 
+    text-decoration: none;
+    transition: color 0.3s; /* Transição suave para a cor */
+}
+
+/* Estilo dos links do menu ao passar o mouse */
+nav ul li a:hover {
+    color: #2196F3; /* Azul claro quando o mouse passa sobre o link */
+    background-color: transparent; 
+}
+
+/* Estilo da seção de bem-vindo */
+main {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #ffebee; 
+    color: #d5006d; 
+    font-family: 'Poppins', sans-serif; 
+    flex: 1; /* Faz o main ocupar o espaço restante */
+}
+
+.bem-vindo {
+    color: #fff; 
+    border: 2px solid #000; 
+    padding: 10px; 
+    display: inline-block; 
+    border-radius: 4px; 
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 40px; /* Aumenta o espaçamento entre os títulos */
+}
+
+p {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+#marilia-abrao {
+    font-size: 60px; 
+    font-weight: 700; 
+    margin: 50px 0; 
+}
+
+/* Estilo da página "Sobre mim" */
+.sobre-mim {
+    background-color: #fff; 
+    color: #d5006d; 
+    padding: 50px 20px; 
+    text-align: center; 
+}
+
+/* Estilo da página "Portfólio" */
+.portfolio {
+    background-color: #fff; 
+    color: #d5006d; 
+    padding: 50px 20px; 
+    text-align: center; 
+}
+
+/* Estilo da página de contato */
+main {
+    padding: 50px 20px; 
+    text-align: center; 
+    background-color: #fff; 
+}
+
+/* Estilo dos formulários, botões, etc. */
+form {
+    max-width: 600px;
+    margin: 0 auto; 
+    padding: 20px;
+    background-color: #fce4ec; 
+    border-radius: 8px; 
+}
+
+/* Estilo dos campos de formulário */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #d5006d; 
+    border-radius: 4px;
+    font-family: Arial, sans-serif;
+    background-color: #fff; 
+    box-sizing: border-box; /* Inclui o padding na largura total */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+    height: 30px; /* Reduz a altura dos campos de texto */
+}
+
+textarea {
+    height: 100px; /* Define a altura da caixa de mensagem */
+}
+
+/* Estilo do botão de enviar */
+input[type="submit"] {
+    background-color: #4CAF50; 
+    color: #fff;
+    border: none;
+    padding: 15px 30px; 
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif; 
+    border-radius: 25px; 
+    font-size: 22px; 
+    text-align: center; 
+    display: block; 
+    margin: 20px auto;
+    width: 200px; 
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049; 
+}
+
+/* Estilo da foto na seção Sobre Mim */
+.minha-foto {
+    display: block; 
+    margin: 10px auto; /* Centraliza a imagem e dá espaço acima e abaixo */
+    width: 120px; 
+    height: auto; 
+    border-radius: 50%; 
+}
+
+/* Rodapé */
+footer {
+    background-color: #d5006d; 
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    margin-top: auto; /* Garante que o rodapé fique no final da tela */
+}
+
+/* Estilo da seção Formação, Idiomas e Experiências */
+.formacao-experiencias {
+    padding: 30px 20px; 
+    text-align: center; 
+    color: #d5006d; 
+    margin-left: 0; 
+}
+
+/* Estilo dos títulos da seção Formação, Idiomas e Experiências */
+h2 {
+    font-size: 24px; 
+    margin: 40px 0; 
+    color: #d5006d; 
+}
+
+/* Estilo para as listas sem estrelas */
+ul {
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0; 
+}
+
+ul li {
+    color: #d5006d; 
+    margin-bottom: 10px; 
+}
+
+
+
